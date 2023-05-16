@@ -1,0 +1,43 @@
+@import 'normalize.css';
+
+:root {
+}
+
+html {
+    font-size: 62.5%;
+}
+
+* {
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// Fonts emmbeded
+
+@font-face {
+    font-family: KFOIC;
+    src: url('/assets/fonts/KFOlCnqEu92Fr1MmEU9fBBc4AMP6lQ.woff2');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: KFOIC;
+    src: url('/assets/fonts/KFOlCnqEu92Fr1MmSU5fBBc4AMP6lQ.woff2');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: KFOIC;
+    src: url('/assets/fonts/KFOmCnqEu92Fr1Mu4mxKKTU1Kg.woff2');
+    font-weight: 600;
+}
+
+body {
+    font-family: 'KFOIC';
+    font-size: 1.6rem;
+    line-height: 1.5;
+    margin: 0;
+}

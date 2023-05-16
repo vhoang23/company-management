@@ -1,0 +1,98 @@
+.wrapper {
+    background-color: #ecf0f4;
+    width: 100%;
+    height: 100%;
+    padding: 0 25px;
+    height: calc(100vh - 61px);
+    overflow: auto;
+}
+
+.border-top {
+    border-top: 1px solid #e0e0e0;
+}
+
+.request-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .img-item {
+        img {
+            width: 40px;
+            height: 40px;
+        }
+    }
+}
+
+.employee-avatar {
+    border-radius: 50%;
+}
+
+.col-item {
+    padding: 14px 0;
+    color: #000000de;
+    font-size: 1.4rem;
+    font-weight: 600;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0 16px;
+}
+
+.request-content {
+    padding: 14px 0;
+    color: #000000de;
+    font-size: 1.4rem;
+    font-weight: 600;
+    width: 170px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0 16px;
+}
+
+.border-top {
+    border-top: 1px solid #e0e0e0;
+}
+
+.action {
+    display: flex;
+}
+
+.action-btn {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.approve-btn {
+    color: greenyellow;
+    margin-right: 20px;
+}
+
+.refuse-btn {
+    color: #ff4081;
+}
+
+.edit-btn {
+    color: #6777ef;
+    margin-right: 20px;
+}
+
+.remove-btn {
+    color: #ff4081;
+}
+
+.flex-3 {
+    flex: 3;
+}
+
+.flex-5 {
+    flex: 5;
+}
+
+.flex-10 {
+    flex: 10;
+}

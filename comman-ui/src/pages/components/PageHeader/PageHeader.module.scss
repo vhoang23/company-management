@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 0;
+    width: 100%;
+}
+
+.page-name {
+    flex: 1;
+    h2 {
+        font-size: 2rem;
+        font-weight: 700;
+        color: #444;
+    }
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 1;
+    span {
+        margin-right: 8px;
+        color: #555;
+        font-size: 1.5rem;
+    }
+}

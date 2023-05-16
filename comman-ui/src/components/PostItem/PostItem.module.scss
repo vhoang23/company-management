@@ -1,0 +1,70 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.user-avatar {
+    margin-right: 10px;
+    img {
+        border-radius: 50%;
+        height: 40px;
+        width: 40px;
+    }
+}
+
+.info {
+    flex: 1;
+    div {
+        span {
+            font-size: 1.6rem;
+        }
+    }
+}
+
+.user-name,
+.dep-name {
+    color: #555555;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.time-stamp {
+    color: #96a2b4;
+    font-size: 1.2rem;
+}
+
+.action-btn {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.edit-btn {
+    color: #6777ef;
+    margin-right: 20px;
+}
+
+.remove-btn {
+    color: #ff4081;
+}
+
+.content {
+    margin-top: 8px;
+    background: #f2f3ff;
+    padding: 10px 20px;
+    font-size: 1.6rem;
+}

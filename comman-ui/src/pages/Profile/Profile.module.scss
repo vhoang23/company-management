@@ -1,0 +1,107 @@
+.wrapper {
+    background-color: #ecf0f4;
+    width: 100%;
+    height: 100%;
+    padding: 0 25px;
+    height: calc(100vh - 61px);
+    overflow: auto;
+}
+
+.container {
+    display: flex;
+}
+
+.contact-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 34%;
+    border-radius: 8px;
+}
+
+.contact-header {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding-bottom: 80px;
+    padding-top: 12px;
+    background-color: #212529;
+    color: #fff;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    .user-name {
+        font-size: 2.2rem;
+    }
+    p {
+        font-size: 1.4rem;
+    }
+}
+
+.user-avatar {
+    position: absolute;
+    top: 85px;
+    img {
+        width: 112px;
+        height: 112px;
+        border-radius: 50%;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px,
+            rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+}
+
+.address {
+    margin-bottom: 14px;
+}
+
+.phone-number,
+.email {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 14px;
+}
+
+.phone-icon,
+.email-icon {
+    margin-right: 8px;
+}
+
+.contact-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    color: #212529;
+    font-size: 1.4rem;
+    font-weight: 600;
+    width: 100%;
+    padding: 80px 10px 20px 10px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.detail-info {
+    width: 66%;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.wrapper::-webkit-scrollbar {
+    display: block;
+    width: 6px;
+}
+
+.wrapper::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+.wrapper::-webkit-scrollbar-track {
+    border-radius: 0;
+    background-color: rgba(0, 0, 0, 0);
+}

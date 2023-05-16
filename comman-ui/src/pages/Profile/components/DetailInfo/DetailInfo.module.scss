@@ -1,0 +1,25 @@
+.wrapper {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+
+.label {
+    display: block;
+    padding: 10px 10px 0 15px;
+    color: #5b626b;
+    font-weight: 900;
+    font-size: 1.8rem;
+}
+
+.content {
+    padding: 15px;
+    font-size: 1.4rem;
+    color: #555;
+    font-weight: 600;
+    li {
+        list-style: none;
+        margin: 10px 0;
+    }
+}

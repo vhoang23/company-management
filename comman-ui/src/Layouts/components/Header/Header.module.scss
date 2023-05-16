@@ -1,0 +1,33 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 61px;
+    background-color: #fff;
+    padding: 0 30px;
+}
+
+.user-container {
+    display: flex;
+    align-items: center;
+}
+
+.user-name {
+    color: #000;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.user-img {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.congratulation-text {
+    color: #ff4081;
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-right: 20px;
+}
